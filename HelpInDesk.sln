@@ -11,6 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6D21F578-F8C7-46E7-982A-615426EDF177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpInDesk.Presentation", "HelpInDesk.Presentation\HelpInDesk.Presentation.csproj", "{DCF6932F-550D-43C9-9E4C-53B71BE8F5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpInDesk.UI.Web", "HelpInDesk.UI.Web\HelpInDesk.UI.Web.csproj", "{74F88019-731B-4DD3-A588-0D6F241AA378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpInDesk.Repository.Linq", "HelpInDesk.Repository.Linq\HelpInDesk.Repository.Linq.csproj", "{1760C8DE-1A4D-4476-B5B3-C8E065186735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpInDesk.Repository.Entity", "HelpInDesk.Repository.Entity\HelpInDesk.Repository.Entity.csproj", "{4B26AD16-7669-4D00-ADF8-509C49C1D71E}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = HelpInDesk.vsmdi
@@ -28,8 +38,27 @@ Global
 		{C24B6F94-8957-4FB3-86F1-A54DCD37BBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24B6F94-8957-4FB3-86F1-A54DCD37BBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24B6F94-8957-4FB3-86F1-A54DCD37BBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF6932F-550D-43C9-9E4C-53B71BE8F5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF6932F-550D-43C9-9E4C-53B71BE8F5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF6932F-550D-43C9-9E4C-53B71BE8F5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF6932F-550D-43C9-9E4C-53B71BE8F5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F88019-731B-4DD3-A588-0D6F241AA378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F88019-731B-4DD3-A588-0D6F241AA378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F88019-731B-4DD3-A588-0D6F241AA378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F88019-731B-4DD3-A588-0D6F241AA378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1760C8DE-1A4D-4476-B5B3-C8E065186735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1760C8DE-1A4D-4476-B5B3-C8E065186735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1760C8DE-1A4D-4476-B5B3-C8E065186735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1760C8DE-1A4D-4476-B5B3-C8E065186735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B26AD16-7669-4D00-ADF8-509C49C1D71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B26AD16-7669-4D00-ADF8-509C49C1D71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B26AD16-7669-4D00-ADF8-509C49C1D71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B26AD16-7669-4D00-ADF8-509C49C1D71E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C24B6F94-8957-4FB3-86F1-A54DCD37BBD3} = {6D21F578-F8C7-46E7-982A-615426EDF177}
 	EndGlobalSection
 EndGlobal

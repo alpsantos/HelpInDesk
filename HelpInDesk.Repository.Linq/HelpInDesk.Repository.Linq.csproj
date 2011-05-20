@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2babb2f8-6fd1-4cbf-995a-83c51b486b9c</ProjectGuid>
+    <ProjectGuid>{1760C8DE-1A4D-4476-B5B3-C8E065186735}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HelpInDesk.Repository.Linq</RootNamespace>
